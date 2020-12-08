@@ -10,7 +10,7 @@ function App() {
     <>
         <NavBar />
         <Hero />
-        <img src={camisaChina} alt='Camisa de corte chino negra'/>
+        <img src={camisaChina} className='foto-producto' alt='Camisa de corte chino negra'/>
         <Footer />
     </>
   );
