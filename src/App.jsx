@@ -1,10 +1,14 @@
 import './styles/App.css';
+import Hero from './components/Home/Hero';
+import Footer from './components/Global/Footer';
+
 
 function App() {
   return (
+     /*Importo el componente Hero dentro del componente App*/
     <>
-      <h1 className='titulo'>9979 Store</h1>
-      <p className= 'subtitulo'>Esto es mi E-commerce</p>
+        <Hero/>
+        <Footer/>
     </>
   );
 }
