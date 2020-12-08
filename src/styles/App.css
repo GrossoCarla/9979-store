@@ -1,3 +1,20 @@
 .titulo{
     color:red;
 }
+
+ul.ulNav{
+    display: flex;
+    margin-left: 10%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+li{
+    list-style: none;
+    margin-right: 20%;
+}
+
+a{
+    text-decoration: none;
+    font-size: 1rem;
+}
