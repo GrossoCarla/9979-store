@@ -4,6 +4,8 @@ import Footer from './components/Global/Footer/Footer';
 import NavBar from './components/Global/NavBar/NavBar';
 import ProductCard from './components/Global/ProductCard/ProductCard'
 import camisaChina from './assets/camisaChina.jpg';
+import camisaAlmejas from './assets/camisaAlmejas.jpg';
+import camisaPlantas from './assets/camisaPlantas.jpg';
 
 function App() {
   return (
@@ -11,8 +13,9 @@ function App() {
     <>
         <NavBar />
         <Hero />
-        <img src={camisaChina} className='foto-producto' alt='Camisa de corte chino negra'/>
-        <ProductCard/>
+        <ProductCard titulo="Camisa almeja" foto={camisaAlmejas} precio="900" />
+        <ProductCard titulo="Camisa china" foto={camisaChina} precio="1200" />
+        <ProductCard titulo="Camisa plantas" foto={camisaPlantas} precio="1500" />
         <Footer />
     </>
   );
