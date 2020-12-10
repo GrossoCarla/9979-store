@@ -2,7 +2,7 @@ import './styles/App.css';
 import Hero from './components/Home/Hero';
 import Footer from './components/Global/Footer/Footer';
 import NavBar from './components/Global/NavBar/NavBar';
-import ProductCard from './components/Global/ProductCard/ProductCard'
+import ProductCard from './components/Global/ProductCard/ProductCard';
 import camisaChina from './assets/camisaChina.jpg';
 import camisaAlmejas from './assets/camisaAlmejas.jpg';
 import camisaPlantas from './assets/camisaPlantas.jpg';
