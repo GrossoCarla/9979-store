@@ -9,7 +9,6 @@ import camisaPlantas from './assets/camisaPlantas.jpg';
 
 function App() {
   return (
-     /*Importo el componente Hero dentro del componente App*/
     <>
         <NavBar />
         <Hero />
